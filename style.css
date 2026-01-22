@@ -80,6 +80,65 @@ rgba(145, 0, 248, 1));
 
 
 /* Banner Section */
+.banner-section{
+     /* padding: 36.5px 200px; */
+     background-image: url(assets/hero-bg.png);
+     padding-top: 250px;
+     padding-bottom: 100px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100vw;
+
+
+
+    }
+
+.banner-container{
+    position: relative;
+    /* border: 1px solid red; */
+    
+   
+
+    }
+    .banner-container .bg{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    }
+    .banner-container .mike{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    }
+        
+
+
+
+
+
+
+.banner-text{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 250px;
+    }
+
+.banner-button {
+        gap: 30px;
+    }
+.banner-text .section-heading3{
+    margin-bottom: 2px;
+}
+
+
+
+
+
+
 
 /* About Section */
 .rating-container{
@@ -259,6 +318,7 @@ footer{
     background-image: url(assets/hero-bg.png);
     /* background-color: #1A0B2E; */
     height: 500px;
+    background-size: cover;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -291,6 +351,7 @@ footer{
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    margin-top: 100px;
 
   
 }
