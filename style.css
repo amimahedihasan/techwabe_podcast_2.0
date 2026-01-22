@@ -1,3 +1,195 @@
-h1{
-    color: antiquewhite;
+/* Shared Style*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.para-text{
+    color:
+    #FFFFFF;
+    font-size: 1rem;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.section-heading{
+    color: var(--#FFFFFF, rgba(255, 255, 255, 1));
+    font-style: Bold;
+    font-size:3rem;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.main-layout{
+    max-width:1200px ;
+    padding: 120px 200px;
+    margin: 0 auto;
+}
+
+
+/* Nav-bar */
+
+nav{
+    padding: 36.5px 200px;
+    background-color:#1A0B2E;
+}
+.primary-btn{
+    border-radius: 10000px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    width: 135px;
+    height: 44px;
+    justify-content: center;
+    padding: 12px 16px 12px 16px;
+    gap: 4px;
+    font-size:1rem; 
+    color: white;  
+    border: none;    
+}
+
+.nav-logo{
+    font-size: 3rem;
+    color: #9c4a4a;
+    font-weight:bold;
+}
+.linear-color{
+    background: linear-gradient(to right, 
+rgba(247, 233, 63, 1)
+rgba(251, 9, 180, 1)
+rgba(145, 0, 248, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+
+}
+.display-flex{
+    display: flex;
+}
+.nav-parent{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #e0e0e0;
+    align-items: center;
+
+}
+.nav-text ul {
+    list-style: none;
+    gap:32px ;
+    color: white;
+    font-size: 1rem;
+}
+
+
+/* Banner Section */
+/* About Section */
+.rating-container{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    /* padding: 80px 200px 200px 120px; */
+}
+.rating-card .rating-num{
+    color: rgba(0, 255, 136, 1);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize; 
+}
+.rating-card{
+    /* margin-top:80px ; */
+    justify-content: center;
+}
+.about-text .para-text{
+    text-align: center;
+    margin-top: 30px;
+    
+
+}
+.about-container .margin-text{
+    border-bottom:1px solid hsl(0, 7%, 92%);
+    margin-bottom: 75px;
+    text-align: center;
+}
+.about-sec{
+    color: white;
+    background-color:#1A0B2E ;
+}
+.pov{
+    margin-bottom: 75px;
+}
+.about-container{
+    padding: 60px 200px 120px 200px       ;
+}
+/* Choose Section */
+.bg-layout{
+    background-color: #230E3D;
+}
+.section-heading2{
+    color:  rgba(255, 255, 255, 1);
+    font-style: Bold;
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 29px;
+    margin-top: 16px;
+
+}
+.cards{
+display: flex;
+justify-content: center;
+padding: 40px;
+flex-direction: column;
+border-radius: 40px;
+background: rgba(53, 17, 101, 0.4);
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.span-1{
+    grid-row: span 2;
+    grid-column: span 1;
+
+}
+.span-2{
+    grid-row: span 1;
+    grid-column: span 2;
+
+}
+.span-3{
+    grid-row: span 1;
+    grid-column: span 2;
+
+}
+.span-4{
+    grid-row: span 1;
+    grid-column: span 1;
+
+}
+
+
+
+.section-heading3{
+    color: rgba(255, 255, 255, 1);
+    font-style: Bold;
+    font-size:3rem;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Fearured Card Section */
+.fetures-card{
+    /* width: 380px; */
+    /* height: 226px;   */
+    border-radius: 0px 0px 24px 24px;
+    background: rgba(37, 13, 68, 1);
+    
+
+}
+.bg2-layout{
+    background-color: #1A0B2E;
 }
