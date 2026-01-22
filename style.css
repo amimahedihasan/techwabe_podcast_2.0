@@ -80,6 +80,7 @@ rgba(145, 0, 248, 1));
 
 
 /* Banner Section */
+
 /* About Section */
 .rating-container{
     display: flex;
@@ -182,14 +183,116 @@ background: rgba(53, 17, 101, 0.4);
 }
 
 /* Fearured Card Section */
+
+.bg3-layout {
+        background: rgba(37, 13, 68, 1);
+
+}
 .fetures-card{
     /* width: 380px; */
     /* height: 226px;   */
     border-radius: 0px 0px 24px 24px;
-    background: rgba(37, 13, 68, 1);
-    
+    background-color: #351165;
 
+   
 }
+
+.featur-card-content{
+    flex-direction: column;
+    padding: 24px;
+}
+   
+   
+
+.text1{
+    color: white;
+}
+
 .bg2-layout{
     background-color: #1A0B2E;
+    
 }
+.min-img{
+    display: flex;
+    gap: 15px;
+}
+.fetures-card-parent{
+    display: flex;
+    gap:30px
+}
+
+/* host section */
+.host-section{
+    background-color: #351165;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    border-radius: 40px;
+}
+.section-heading4{
+     color: rgba(255, 255, 255, 1);
+   font-style: Bold;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+}
+.host-icon{
+    margin-right: 15px;
+}
+.section-heading5{
+    margin-top: 120px;
+    color: rgba(255, 255, 255, 1);
+    font-style: Bold;
+    font-size:3rem;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+/* footer section */
+footer{
+    /* padding-top: 120px; */
+    background-image: url(assets/hero-bg.png);
+    /* background-color: #1A0B2E; */
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/* footer{
+    justify-content: center;
+} */
+
+.icon-img{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.icon-parent{
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-main p{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.footer-main{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+  
+}
+
+/* Responsive for mobile device */
